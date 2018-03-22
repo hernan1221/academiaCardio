@@ -11,7 +11,26 @@ body {
 font-family: 'Koz';
  font-size: 15px; 
 }
+/* ------- Generics ------ */
+.nav-link{
 
+	color: gray;
+		padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+
+}
+.menuActivo{
+
+	background-color: #36a1e2;
+	color:white;
+	border-radius: 1em;
+
+}
+
+
+/* ------- menu bar ------ */
 
 .imgLogo{
 
@@ -19,5 +38,19 @@ font-family: 'Koz';
 		 margin: 2em;
   		
 	}
+
+
+
+.botonMenu{
+	background: url("../img/menu.png");
+	width: 2em;
+	height: 1.6em;
+   
+    border: none;
+}
+
+.baner-menu{
+
+}
 
 /* home */
