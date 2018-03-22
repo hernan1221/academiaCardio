@@ -1,0 +1,21 @@
+
+@font-face {
+    font-family: 'Trade Gothic Light';
+    src: url('../fonts/KozGoPr6N-Regular.otf');
+
+}
+
+/* ------- menu bar ------ */
+
+body { 
+font-family: 'Trade Gothic Light';
+ font-size: 15px; 
+}
+
+
+.imgLogo{
+
+		 width: 100%;
+		 margin: 2em;
+  		
+	}
