@@ -1,6 +1,6 @@
 
 @font-face {
-    font-family: 'Trade Gothic Light';
+    font-family: 'Koz';
     src: url('../fonts/KozGoPr6N-Regular.otf');
 
 }
@@ -8,7 +8,7 @@
 /* ------- menu bar ------ */
 
 body { 
-font-family: 'Trade Gothic Light';
+font-family: 'Koz';
  font-size: 15px; 
 }
 
