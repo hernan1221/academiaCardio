@@ -103,3 +103,45 @@ font-family: 'Koz';
 }
 /* home */
 
+
+/*--------------------------------------------------------------- Cardio Blog-------------------------------------------------------------------------------------------------------------------*/
+
+
+.cardioBlog{
+
+margin-top:  200px;
+
+}
+
+.cardioBlogDos{
+
+margin-top:  100px;
+
+}
+.articulo-cardioBlog{
+
+		background-color: #f3f3f3;
+
+}
+.descripcion-cardioArt{
+
+padding-top:30px;
+padding-bottom: 30px;
+
+}
+
+.btn-verCardioBlog{
+margin-top:-20px;
+	background-color: #ce020b;
+	height: 2em;
+}
+
+.text-btnverCardioBlog{
+
+	color: white;
+	text-decoration: none;
+	margin-left: 270px;
+	padding-top:30px;
+
+}
+
