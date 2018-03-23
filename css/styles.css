@@ -61,8 +61,8 @@ font-family: 'Koz';
 
 .botonMenu{
 	background: url("../img/menu.png");
-	width: 2em;
-	height: 1.6em;
+	width: 0.5em;
+	height: 1.75em;
    
     border: none;
 }
@@ -109,6 +109,8 @@ font-family: 'Koz';
 margin-top:  50px;
 
 }
+
+
 /* home */
 
 
@@ -285,4 +287,37 @@ footer a{
 
 	  color: white;
 	   text-decoration: underline;
+}
+
+/*----------------------@querys------------------*/
+
+@media (min-width: 1200px){
+.container2 {
+    max-width: 1280px;
+}
+}
+@media (min-width: 992px){
+.container2 {
+   /* max-width: 960px;*/
+
+}
+}
+@media (min-width: 768px){
+.container2 {
+  /*  max-width: 720px;*/
+
+}
+}
+@media (min-width: 576px){
+.container2{
+
+   /* max-width: 540px;*/
+    
+}
+.container2 {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
