@@ -20,6 +20,20 @@
 
 
 }
+@font-face {
+ 
+      font-family: 'TRADEGOTHICLTSTDBOLD';
+    src: url('../fonts/TRADEGOTHICLTSTDBOLD1.otf');
+
+
+}
+@font-face {
+ 
+      font-family: 'TRADEGOTHICLTSTDLIGHT';
+    src: url('../fonts/TRADEGOTHICLTSTDLIGHT1.otf');
+
+
+}
 /* ------- menu bar ------ */
 
 /* ------- jose estuvo aqui ------ */
