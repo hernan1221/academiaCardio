@@ -3,8 +3,23 @@
     font-family: 'Koz';
     src: url('../fonts/KozGoPr6N-Regular.otf');
 
+
+}
+@font-face {
+ 
+      font-family: 'KozBold';
+    src: url('../fonts/KozGoPr6N-Bold.otf');
+
+
 }
 
+@font-face {
+ 
+      font-family: 'KozLi';
+    src: url('../fonts/KozGoPr6N-ExtraLight.otf');
+
+
+}
 /* ------- menu bar ------ */
 
 /* ------- jose estuvo aqui ------ */
@@ -52,9 +67,39 @@ font-family: 'Koz';
     border: none;
 }
 
-.baner-menu{
 
+
+.cuerpo-contenido{
+
+	margin-top: 5em;
 }
 
+.content-menu{
+	 
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    align-items: baseline;
+	position: absolute;
+	z-index: 100;
+	margin-top: -4em;
+	width: 100%;	
+}
+
+
+
+
+.verMas-comp{
+
+	background-color: gray;
+	font-size: .7em;
+	font-family: 'KozBold';
+}
+.verMas{
+
+	color: white;
+	font-family: 'KozLi';
+
+}
 /* home */
 
