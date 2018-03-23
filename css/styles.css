@@ -152,6 +152,123 @@ margin-top:-20px;
 
 }
 
+
+/*------------------------------------------------------------------Registro------------------------------*/
+
+
+.seccionInicioRegistro{
+
+margin-top: 100px;
+
+}
+
+.inputMail{
+
+height: 50px;
+
+ margin: 30px 20px 15px 40px;
+}
+
+.inputContra{
+
+height: 50px;
+
+ margin: 0px 20px 15px 40px;
+
+}
+
+.textoContra{
+
+	font-size: 12px;
+color :black;
+	text-decoration: none;
+	margin: 0px 20px 0px 335px ;
+}
+
+.btnEnviarReg{
+
+
+	margin: 30px 0px 30px 170px ;
+	border-style: none;
+	background-color: #36a1e2;
+	color:white;
+	height: 3em;
+}
+
+.seccionRegistro{
+
+background-color: #fafafa;
+
+}
+
+.tituloRegistro{
+
+margin-bottom: 45px;
+
+}
+
+.inputNombre{
+height: 50px;
+
+ margin: 30px 20px -15px 30px;
+
+}
+.inputApellido{
+height: 50px;
+
+ margin: 30px 0px -15px 15px;
+
+}
+.inputFecha{
+
+	height: 50px;
+
+ margin: 30px 20px 15px 30px;
+}
+.inputCorreo{
+
+	height: 50px;
+
+ margin: 30px 0px -15px 15px;
+}
+.inputContraDos{
+
+	height: 50px;
+margin-left: 30px;
+margin-right: 30px;
+
+}
+.inputVerContra{
+
+	height: 50px;
+
+ margin: 0px 0px 0px 5px;
+}
+
+.checkTerCon{
+
+	margin: 30px 0px 0px 15px;
+}
+.textoTerCon{
+
+color:black;
+text-decoration: underline;
+}
+
+.checkPri{
+
+	margin: 15px 0px 0px 15px;
+}
+
+.btnRegistrarme{
+margin: 30px 0px 30px 340px ;
+	border-style: none;
+	background-color: #36a1e2;
+	color:white;
+	height: 3em;
+
+}
+
 /*--------------------------------------Footer-------------------------------------------------------*/
 
 footer{
