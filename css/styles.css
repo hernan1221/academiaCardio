@@ -41,6 +41,11 @@
 
 
 }
+
+/* ------- Helpers ------ */
+
+.text-blue-client {color: #36a1e2;}
+
 /* ------- menu bar ------ */
 
 /* ------- jose estuvo aqui ------ */
@@ -188,65 +193,13 @@ margin-top:-20px;
 
 
 /*-----------------------------------------------------------------------------------------------------------------------------LO DE JOSE -------------------------------------------------------*/
-/*--------------------------------------------------------------- Cardio Blog-------------------------------------------------------------------------------------------------------------------*/
-
-
-.cardioBlog{
-
-margin-top:  200px;
-
-}
-
-.cardioBlogDos{
-
-margin-top:  100px;
-
-}
-.articulo-cardioBlog{
-
-		background-color: #f3f3f3;
-
-}
-.descripcion-cardioArt{
-
-padding-top:30px;
-padding-bottom: 30px;
-
-}
-
-.btn-verCardioBlog{
-margin-top:-20px;
-	background-color: #ce020b;
-	height: 2em;
-}
-
-.text-btnverCardioBlog{
-
-	color: white;
-	text-decoration: none;
-	
-
-}
-.text-btnverArt{
-
-	color: red;
-	text-decoration: none;
-	
-
-}
-.btn-cambiarPag{
-
-margin-top: 50px;
-margin-bottom: 50px;
-
-}
 /*------------------------------------------------------------------Registro------------------------------*/
 
 
 .seccionInicioRegistro{
 
 margin-top: 100px;
-margin-bottom: 100px;
+
 }
 
 .titulo-inicioSesion{
@@ -386,10 +339,9 @@ font-size:20px;
 .parrafoIntroContact{
 
  font-family: 'TRADEGOTHICLTSTDLIGHT';
- font-size: 18px;
+ font-size: 23px;
 margin-top: 100px;
 margin-left: -20px;
-color: #767676;
 }
 
 .inputNombreContacto{
@@ -436,7 +388,6 @@ margin-top: 30px;
 font-size:20px;
 margin-top: 10px;
 margin-left: 715px;
-margin-bottom:145px;
 }
 /*-------------------------------------------------------------------------------------Cardio Blog Interna------------------------------------------------------------------------------*/
 
@@ -539,6 +490,7 @@ margin-left: 855px;
 	padding-bottom: 50px;
 }
 /*----------------------------------------------------------------------------------------------------------------------------LO DE JOSE ACABA AQUI ---------------------------------------------------------------------*/
+
 /*--------------------------------------Footer-------------------------------------------------------*/
 
 footer{
@@ -607,6 +559,12 @@ border-color: red;
 	margin-top: 2em;
 
 }
+
+/*--------------------------------------Interna Category css -------------------------------------------------------*/
+
+.title-post { top: 50%; right: 0; width: 600px;}
+.content-related {background-color: #f3f3f3;}
+
 /*----------------------@querys------------------*/
 
 @media (min-width: 1200px){
@@ -638,4 +596,5 @@ border-color: red;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+}
 }
