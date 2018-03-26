@@ -49,18 +49,18 @@
 		 		<div id="main-menu">
 		            <ul class="nav justify-content-around ">
 		              <li class="nav-item">
-		                <a class="nav-link" href="#">Inicio</a>
+		                <a class="nav-link" href="index.html">Inicio</a>
 		                
 		              </li>
 		        
 		              <li class="nav-item">
-		                <a class="nav-link " href="#">Cardio blog</a>
+		                <a class="nav-link " href="cardioBlog.html">Cardio blog</a>
 		              </li>
 		              <li class="nav-item">
-		                <a class="nav-link" href="#">Contacto</a>
+		                <a class="nav-link" href="Contacto.html">Contacto</a>
 		              </li>
 		              <li class="nav-item">
-		                <a class="nav-link menuActivo" href="#">Login / Registro</a>
+		                <a class="nav-link menuActivo" href="Registro.html">Login / Registro</a>
 		              </li>
 
 		              <li class="">
@@ -73,12 +73,12 @@
 
 							    </a>
 							    <div class="dropdown-menu ">
-							      <a class="dropdown-item" href="#">Diabetes y enfermedad cardiovascular</a>
-							      <a class="dropdown-item" href="#">Lipidos</a>
-							      <a class="dropdown-item" href="#">Enfermedad coronaria</a>
-							      <a class="dropdown-item" href="#">Insuficiencia cardíaca</a>
-							      <a class="dropdown-item" href="#">Anticoagulación</a>
-							      <a class="dropdown-item" href="#">Cardiología preventiva</a>
+							      <a class="dropdown-item" href="diabetes.html">Diabetes y enfermedad cardiovascular</a>
+							      <a class="dropdown-item" href="lipidos.html">Lipidos</a>
+							      <a class="dropdown-item" href="coronaria.html">Enfermedad coronaria</a>
+							      <a class="dropdown-item" href="insuficiencia.html">Insuficiencia cardíaca</a>
+							      <a class="dropdown-item" href="anticuagulacion.html">Anticoagulación</a>
+							      <a class="dropdown-item" href="preventiva.html">Cardiología preventiva</a>
 							    </div>
 							  </li>
 							  
@@ -147,8 +147,8 @@
 <input type="password" name="" placeholder="Confirmar contraseña" class="col-lg-5 inputVerContra" required="required">
 </div>	
 
-<input type="checkbox" name="gender" value="male" class="col-lg6 checkTerCon" required="required"> <a href="" class="textoTerCon" >Acepto términos y condiciones</a><br>
-<input type="checkbox" name="gender" value="male" class="col-lg6 checkPri" required="required"><a href="" class="textoTerCon"> Acepto políticas de privacidad</a><br>
+<input type="checkbox" name="gender" value="male" class="col-lg6 checkTerCon" required="required"> <a href="" class="textoTerCon" data-toggle="modal" data-target="#terminos" >Acepto términos y condiciones</a><br>
+<input type="checkbox" name="gender" value="male" class="col-lg6 checkPri" required="required"><a href="" class="textoTerCon" data-toggle="modal" data-target="#politicas"> Acepto políticas de privacidad</a><br>
 
 <input type="submit" name="" class="col-lg-5 btnRegistrarme" value="REGISTRARME">
 
@@ -169,17 +169,60 @@
 <script src="js/bootstrap.min.js"></script>
 <script defer src="js/fontawesome-all.js"></script>
 
+<div class="modal fade" id="terminos" tabindex="-1" role="dialog" aria-labelledby="terminos" aria-hidden="true">
+  <div class="modal-dialog  modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="terminos">Términos y condiciones</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       
+      <div class="container-fluid">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+      </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+
+<div class="modal fade" id="politicas" tabindex="-1" role="dialog" aria-labelledby="politicas" aria-hidden="true">
+  <div class="modal-dialog  modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="politicas">Políticas de privacidad</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       
+      <div class="container-fluid">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+      </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
 <footer>
 	
 	<div class="container">
 
 		<div class="row justify-content-center">
 	<div class="col-lg-3 no-gutters text-center">
-		<a href="">Términos y condiciones</a>		
+		<a class="btn text-light" data-toggle="modal" data-target="#terminos">Términos y condiciones</a>		
 	</div>
 	<div class="col-lg-3 no-gutters text-center">
 
-		<a href="">Politicas de privacidad</a>				
+		<a class="btn text-light" data-toggle="modal" data-target="#politicas">Políticas de privacidad</a>				
 	</div>
 	</div>
 	</div>
