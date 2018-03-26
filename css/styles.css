@@ -41,6 +41,10 @@
 
 
 }
+/* ------- Helpers ------ */
+
+.text-blue-client {color: #36a1e2;}
+
 /* ------- menu bar ------ */
 
 /* ------- jose estuvo aqui ------ */
@@ -607,6 +611,12 @@ border-color: red;
 	margin-top: 2em;
 
 }
+
+/*--------------------------------------Interna Category css -------------------------------------------------------*/
+
+.title-post { top: 50%; right: 0; width: 600px;}
+.content-related {background-color: #f3f3f3;}
+
 /*----------------------@querys------------------*/
 
 @media (min-width: 1200px){
