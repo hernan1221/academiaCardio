@@ -614,7 +614,6 @@ border-color: red;
 
 /*--------------------------------------Interna Category css -------------------------------------------------------*/
 
-.title-post { top: 50%; right: 0; width: 600px;}
 .content-related {background-color: #f3f3f3;}
 
 /*----------------------@querys------------------*/
@@ -648,4 +647,9 @@ border-color: red;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+}
+}
+
+@media (min-width: 768px) {
+	.title-post { bottom: 15%; right: 0; width: 600px;position: absolute;}
 }
