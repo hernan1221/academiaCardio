@@ -583,6 +583,30 @@ width: 100%;
 border-color: red;
 }
 
+.bg-light{
+
+	margin-bottom: 2em;
+}
+.bg-light h3{
+
+	margin-bottom: 2em;
+	margin-top: 2em;
+}
+
+.bg-light .text-btnverArt{
+
+	margin-bottom: 1em;
+	margin-top: 4em;
+}
+.no-gutters .img-fluid{
+	margin-bottom: 2em;
+}
+
+.spdr{
+	margin-bottom: 2em;
+	margin-top: 2em;
+
+}
 /*----------------------@querys------------------*/
 
 @media (min-width: 1200px){
