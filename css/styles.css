@@ -34,6 +34,13 @@
 
 
 }
+@font-face {
+ 
+      font-family: 'TRADEGOTHICLTSTD1';
+    src: url('../fonts/TRADEGOTHICLTSTD1.otf');
+
+
+}
 /* ------- menu bar ------ */
 
 /* ------- jose estuvo aqui ------ */
@@ -376,6 +383,106 @@ margin-top: 30px;
 font-size:20px;
 margin-top: 10px;
 margin-left: 715px;
+}
+/*-------------------------------------------------------------------------------------Cardio Blog Interna------------------------------------------------------------------------------*/
+
+.interna-index{
+font-family: 'TRADEGOTHICLTSTD1';
+font-size:16px;
+margin-top:20px;
+color: #8f8f8f;
+
+}
+
+.img-interna-uno{
+
+margin-top: 100px;
+
+}
+
+.cont-interna-uno{
+
+background-color: white;
+margin-top: -170px;
+height: 15em;
+}
+
+.titulo-interna-uno{
+font-family: 'TRADEGOTHICLTSTDBOLD';
+font-size: 44px;
+color: #767676;
+
+padding-top: 30px;
+padding-left: 30px;
+}
+
+.texto-interna-uno{
+ font-family: 'TRADEGOTHICLTSTDLIGHT';
+font-size:18px;
+padding-top: 10px;
+padding-left: 30px;
+
+}
+
+.descripcion-interna-uno{
+ font-family: 'TRADEGOTHICLTSTDLIGHT';
+	font-size:16px;
+	text-align: justify;
+}
+.img-interna-dos{
+
+	margin-top: 7px;
+}
+
+.descripcion-interna-dos{
+
+	margin-top:50px;
+}
+.comentario-interna{
+
+margin-top: 50px;
+
+}
+.comentario-interna h1{
+
+font-family: 'TRADEGOTHICLTSTDBOLD';
+font-size: 30px;
+color: #767676;
+
+}
+.lista-comentarios{
+
+	background-color:#f3f3f3;
+	margin-top: 100px;
+}
+.texto-usuario{
+
+	font-family: 'TRADEGOTHICLTSTDBOLD';
+	font-size: 26px;
+color: #767676;
+}
+
+.btnEnviarComentario{
+
+		border-style: none;
+	background-color: #36a1e2;
+	color:white;
+	height: 2.5em;
+	font-family: 'TRADEGOTHICLTSTDBOLD';
+font-size:20px;
+margin-top: 10px;
+margin-left: 855px;
+}
+.texto-comentario-publicado{
+
+ font-family: 'TRADEGOTHICLTSTDLIGHT';
+	font-size:16px;
+	text-align: justify;	
+}
+.comentario-publicado{
+
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 /*----------------------------------------------------------------------------------------------------------------------------LO DE JOSE ACABA AQUI ---------------------------------------------------------------------*/
 
