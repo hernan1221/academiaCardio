@@ -653,27 +653,30 @@ margin-left: 110px;
 
 .inputNombre{
 
-margin-right: -5px; 
+ 
+margin-left: 35px;
 
 }
 .inputApellido{
 margin-right: 0px; 
-
+margin-left: 35px;
 }
 .inputFecha{
 
-margin-right: -5px; 
+margin-left: 35px; 
 }
 .inputCorreo{
 
-margin-right: 0px; 
+margin-left: 35px; 
+margin-top:0px;
 }
 .inputContraDos{
-margin-right: 5px; 
-
+margin-left: 35px; 
+margin-top:30px;
 }
 .inputVerContra{
-margin-right: 0px; 
+margin-left: 35px; 
+margin-top:15px; 
 }
 .des-inicioSesion{
 
@@ -708,9 +711,18 @@ margin-top: 30px;
 
 
 }
+.checkTerCon{
+
+	margin: 30px 0px 0px 20px;
+
+}
+.checkPri{
+
+	margin: 15px 0px 0px 20px;
+}
 }
 
-/*-------------------------------RESPONSIVE 430------------------------------------------*/
+/*-------------------------------RESPONSIVE 380------------------------------------------*/
 @media only screen and (max-width: 380px) {
 .btnRegistrarme{
 margin-left:175px; 
@@ -724,30 +736,26 @@ margin-left: 110px;
 
 .inputNombre{
 
-margin-right: 0px; 
-margin-left: 20px;
+margin-left: 30px;
 
 }
 .inputApellido{
-margin-right: 0px; 
-
+margin-left: 30px;
 }
 .inputFecha{
 
-margin-right: 0px; 
-margin-left: 20px;
+margin-left: 30px;
 }
 .inputCorreo{
 
-margin-right: 0px; 
+margin-left: 30px;
 }
 .inputContraDos{
-margin-right: 10px; 
-margin-left: 20px;
+margin-left: 30px;
 
 }
 .inputVerContra{
-margin-right: 0px; 
+margin-left: 30px;
 }
 .des-inicioSesion{
 
@@ -782,7 +790,97 @@ margin-top: 30px;
 
 
 }
+.checkTerCon{
+
+	margin: 30px 0px 0px 15px;
+
 }
+.checkPri{
+
+	margin: 15px 0px 0px 15px;
+}
+}
+
+/*--------------------------------------------------------------RESPONSIVE 330 ---------------------------------------------------------------------------------*/
+@media only screen and (max-width: 330px) {
+.btnRegistrarme{
+margin-left:140px; 
+font-size: 12px;
+
+}
+.btnEnviarReg{
+
+margin-left: 80px;
+}
+
+.inputNombre{
+
+margin-left: 25px;
+
+}
+.inputApellido{
+margin-left: 25px;
+}
+.inputFecha{
+
+margin-left: 25px;
+}
+.inputCorreo{
+
+margin-left: 25px;
+}
+.inputContraDos{
+margin-left: 25px;
+
+}
+.inputVerContra{
+margin-left: 25px;
+}
+.des-inicioSesion{
+
+
+font-size: 25px;
+
+
+}
+
+.textoContra{
+ 
+	margin-left:  60px ;
+}
+.tituloRegistro{
+
+margin-bottom: 10px;
+margin-top: 30px;
+}
+.inputMail{
+
+
+
+ margin: 30px 20px 15px 25px;
+
+}
+
+.inputContra{
+
+
+
+ margin: 0px 20px 15px 25px;
+
+
+}
+.checkTerCon{
+
+	margin: 30px 0px 0px 10px;
+
+}
+.checkPri{
+
+	margin: 15px 0px 0px 10px;
+}
+}
+
+
 /*--------------------------------------------------------------CONTACTO --------------------------------------------------------------------*/
 
 .parrafoIntroContact{
@@ -1001,12 +1099,18 @@ width: 100%;
 
 		
 margin-left: 260px;
+font-size: 12px;
+}
+.parrafoIntroContact{
+
+ 
+ font-size: 16px;
 
 }
 }
 /*---------------------------------------- RESPONSIVE 320 -------------------------------------------------------------------------------------*/
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 320px) {
 
 .inputNombreContacto{
 height: 50px;
@@ -1193,10 +1297,7 @@ margin-left: 405px;
 
 margin-left: 300px;
 }
-.cont-interna-uno{
-margin-bottom: 70px;
 
-}
 }
 @media only screen and (max-width: 495px) {
     .btnEnviarComentario{
@@ -1212,8 +1313,15 @@ margin-left: 855px;
 }
 
 }
+@media only screen and (max-width: 330px) {
+.cont-interna-uno{
+margin-bottom: 70px;
+
+}
+}
+
 /*----------------------------------------------------------------------------------------------------------------------------LO DE JOSE ACABA AQUI ---------------------------------------------------------------------*/
-/*--------------------------------------Footer-------------------------------------------------------*/
+/*----------------------------------------------Footer---------------------------------------------*/
 
 footer{
 
