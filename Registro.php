@@ -135,21 +135,21 @@
 <div class="col-lg-12 col-md-12 col-sm-12 seccionRegistro">
 	
 <div class="row"> 
-	<input type="name" name="inputNombre" placeholder="Nombres" class="col-lg-5 col-md-5 col-sm-5 col-5  inputNombre" required="required">
+	<input type="name" name="inputNombre" placeholder="Nombres" class="col-lg-5 col-md-5 col-sm-5 col-10  inputNombre" required="required">
 
-<input type="name" name="inputApellido" placeholder="Apellidos" class="col-lg-5 col-md-5 col-sm-5 col-5 inputApellido">
+<input type="name" name="inputApellido" placeholder="Apellidos" class="col-lg-5 col-md-5 col-sm-5 col-10 inputApellido">
 </div>
 
 	<div class="row"> 
-	<input type="name" name="inputFecha" placeholder="Fecha de nacimiento" class="col-lg-5 col-md-5 col-sm-5 col-5 inputFecha">
+	<input type="name" name="inputFecha" placeholder="Fecha de nacimiento" class="col-lg-5 col-md-5 col-sm-5 col-10 inputFecha">
 
-<input type="email" name="inputCorreo" placeholder="Email" class="col-lg-5 col-md-5 col-sm-5 col-5 inputCorreo" required="required">
+<input type="email" name="inputCorreo" placeholder="Email" class="col-lg-5 col-md-5 col-sm-5 col-10 inputCorreo" required="required">
 </div>	
 
 <div class="row"> 
-	<input type="password" name="inputContraDos" placeholder="Contraseña" class="col-lg-5 col-md-5 col-sm-5 col-5  inputContraDos" required="required">
+	<input type="password" name="inputContraDos" placeholder="Contraseña" class="col-lg-5 col-md-5 col-sm-5 col-10  inputContraDos" required="required">
 
-<input type="password" name="" placeholder="Confirmar contraseña" class="col-lg-5 col-md-5 col-sm-5 col-5 inputVerContra" required="required">
+<input type="password" name="" placeholder="Confirmar contraseña" class="col-lg-5 col-md-5 col-sm-5 col-10 inputVerContra" required="required">
 </div>	
 
 <input type="checkbox" name="gender" value="male" class="col-lg6 checkTerCon" required="required"> <a href="" class="textoTerCon" data-toggle="modal" data-target="#terminos" >Acepto términos y condiciones</a><br>
