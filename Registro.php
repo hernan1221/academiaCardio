@@ -29,11 +29,11 @@
 
 		 	<!-- Abro col -->	
 		 	
-			<div class="col-lg-6">
+			<div class="col-lg-4">
 			<!-- abro col de la imagen logo-->
-			<div class="col-lg-4 ">
+			<div class="col-lg-5 ">
 				
-			<img src="img/logoAcademia.png" class="imgLogo">
+			<img src="img/logoAcademia.png" class="img-fluid p-sm-4">
 			
 			
 			</div>
@@ -44,7 +44,7 @@
 
 			<!-- Abro col -->	
 		 	
-			<div class="col-lg-6 ">
+			<div class="col-lg-7 ">
 
 		 		<div id="main-menu">
 		            <ul class="nav justify-content-around ">
@@ -105,52 +105,52 @@
 			<p class="col-lg-3 interna-index">Inicio / <a href=""> Registro</a></p>	
 	<div class="row seccionInicioRegistro">
 
-<div class="col-lg-6 no-gutters">
+<div class="col-lg-6 col-md-12 col-sm-12 no-gutters">
 
-<h2 class="col-lg-12 titulo-inicioSesion"> Inicio de sesión</h2>
-<p class="col-lg-12 des-inicioSesion">Si ya estás registrado, inicia sesión</p>
+<h2 class="col-lg-12 col-md-12 sol-sm-12  titulo-inicioSesion"> Inicio de sesión</h2>
+<p class="col-lg-12 col-md-12 col-sm-12  des-inicioSesion">Si ya estás registrado, inicia sesión</p>
 
 <div class="col-lg-12 seccionRegistro">
 	
-	<input type="email" name="" placeholder="Mail" class="col-lg-10 inputMail">
-		<input type="password" name="" placeholder="Contraseña" class="col-lg-10 inputContra">
-<a href="" class="col-lg-4  textoContra">¿Olvidaste tu contraseña?</a>
-<input type="submit" name="" value="ENTRAR" class="col-lg-5 btnEnviarReg">
+	<input type="email" name="" placeholder="Mail" class="col-lg-10 col-md-10 col-sm-10 col-10 inputMail">
+		<input type="password" name="" placeholder="Contraseña" class="col-lg-10 col-md-10 col-10 inputContra">
+<a href="" class="col-lg-4 col-md-4 col-sm-4 col-4 textoContra">¿Olvidaste tu contraseña?</a>
+<input type="submit" name="" value="ENTRAR" class="col-lg-5 col-md-5 col-sm-5 col-5 btnEnviarReg">
 
 </div>
 
 </div>
 
 
-<div class="col-lg-6 no-gutters">
+<div class="col-lg-6 col-md-12 col-sm-12 no-gutters">
 
 <h2 class="col-lg-12 tituloRegistro"> Registro</h2>
 
 <form action="php/save.php" method="POST">
-<div class="col-lg-12 seccionRegistro">
+<div class="col-lg-12 col-md-12 col-sm-12 seccionRegistro">
 	
 <div class="row"> 
-	<input type="name" name="inputNombre" placeholder="Nombres" class="col-lg-5 inputNombre" required="required">
+	<input type="name" name="inputNombre" placeholder="Nombres" class="col-lg-5 col-md-5 col-sm-5 col-5  inputNombre" required="required">
 
-<input type="name" name="inputApellido" placeholder="Apellidos" class="col-lg-5 inputApellido">
+<input type="name" name="inputApellido" placeholder="Apellidos" class="col-lg-5 col-md-5 col-sm-5 col-5 inputApellido">
 </div>
 
 	<div class="row"> 
-	<input type="name" name="inputFecha" placeholder="Fecha de nacimiento" class="col-lg-5 inputFecha">
+	<input type="name" name="inputFecha" placeholder="Fecha de nacimiento" class="col-lg-5 col-md-5 col-sm-5 col-5 inputFecha">
 
-<input type="email" name="inputCorreo" placeholder="Email" class="col-lg-5 inputCorreo" required="required">
+<input type="email" name="inputCorreo" placeholder="Email" class="col-lg-5 col-md-5 col-sm-5 col-5 inputCorreo" required="required">
 </div>	
 
 <div class="row"> 
-	<input type="password" name="inputContraDos" placeholder="Contraseña" class="col-lg-5 inputContraDos" required="required">
+	<input type="password" name="inputContraDos" placeholder="Contraseña" class="col-lg-5 col-md-5 col-sm-5 col-5  inputContraDos" required="required">
 
-<input type="password" name="" placeholder="Confirmar contraseña" class="col-lg-5 inputVerContra" required="required">
+<input type="password" name="" placeholder="Confirmar contraseña" class="col-lg-5 col-md-5 col-sm-5 col-5 inputVerContra" required="required">
 </div>	
 
 <input type="checkbox" name="gender" value="male" class="col-lg6 checkTerCon" required="required"> <a href="" class="textoTerCon" data-toggle="modal" data-target="#terminos" >Acepto términos y condiciones</a><br>
 <input type="checkbox" name="gender" value="male" class="col-lg6 checkPri" required="required"><a href="" class="textoTerCon" data-toggle="modal" data-target="#politicas"> Acepto políticas de privacidad</a><br>
 
-<input type="submit" name="" class="col-lg-5 btnRegistrarme" value="REGISTRARME">
+<input type="submit" name="" class="col-lg-5 col-md-5 col-sm-5 col-5 btnRegistrarme" value="REGISTRARME">
 
 </div>
 </form>
