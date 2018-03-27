@@ -81,6 +81,8 @@ h3{
 }
 /* ------- menu bar ------ */
 
+
+
 .imgLogo{
 
 		 width: 100%;
@@ -183,13 +185,14 @@ margin-top:-20px;
 
 	color: white;
 	text-decoration: none;
-	
+	margin-right: 1em;
 
 }
 .text-btnverArt{
 
 	color: red;
 	text-decoration: none;
+	margin-right: 1em;
 	
 
 }
@@ -1303,10 +1306,10 @@ border-color: red;
 
 }
 }
-@media (min-width: 768px){
-.container2 {
-  /*  max-width: 720px;*/
+@media (max-width: 766px){
+.verMas-comp{
 
+font-size: 1em;
 }
 }
 @media (min-width: 576px){
@@ -1326,4 +1329,14 @@ border-color: red;
 
 @media (min-width: 768px) {
 	.title-post { bottom: 15%; right: 0; width: 600px;position: absolute;}
+
+}
+@media (max-width: 1194px){
+.artDoble{
+
+	display: -webkit-box!important;
+display: -ms-flexbox!important;
+display: flex!important;
+
+}
 }
