@@ -143,52 +143,7 @@ margin-top:  50px;
 /* home */
 
 
-/*--------------------------------------------------------------- Cardio Blog-------------------------------------------------------------------------------------------------------------------*/
 
-
-.cardioBlog{
-
-margin-top:  200px;
-
-}
-
-.cardioBlogDos{
-
-margin-top:  100px;
-
-}
-.articulo-cardioBlog{
-
-		background-color: #f3f3f3;
-
-}
-.descripcion-cardioArt{
-
-padding-top:30px;
-padding-bottom: 30px;
-
-}
-
-.btn-verCardioBlog{
-margin-top:-20px;
-	background-color: #ce020b;
-	height: 2em;
-}
-
-.text-btnverCardioBlog{
-
-	color: white;
-	text-decoration: none;
-	
-
-}
-.text-btnverArt{
-
-	color: red;
-	text-decoration: none;
-	
-
-}
 
 
 /*-----------------------------------------------------------------------------------------------------------------------------LO DE JOSE -------------------------------------------------------*/
@@ -201,11 +156,7 @@ margin-top:  200px;
 
 }
 
-.cardioBlogDos{
 
-margin-top:  100px;
-
-}
 .articulo-cardioBlog{
 
 		background-color: #f3f3f3;
@@ -243,6 +194,33 @@ margin-top:-20px;
 margin-top: 50px;
 margin-bottom: 50px;
 
+}
+
+@media only screen and (max-width: 770px) {
+  
+  .articulos{
+
+  	margin-bottom: 50px;
+  }
+    .cardioBlogDos{
+
+margin-top:  0px;
+
+}
+.cardioBlog{
+
+margin-top:  100px;	
+}
+}
+
+@media only screen and (min-width: 770px) {
+  
+
+  .cardioBlogDos{
+
+margin-top:  100px;
+
+}
 }
 /*------------------------------------------------------------------Registro------------------------------*/
 
@@ -374,7 +352,7 @@ text-decoration: underline;
 }
 
 .btnRegistrarme{
-margin: 30px 0px 30px 300px ;
+margin: 30px 0px 30px 290px ;
 	border-style: none;
 	background-color: #36a1e2;
 	color:white;
@@ -383,8 +361,428 @@ margin: 30px 0px 30px 300px ;
 font-size:20px;
 
 }
+/*----------------------------------------------------------------Responsive 1200 ------------------------------------- */
+@media only screen and (max-width: 1200px) {
+.btnRegistrarme{
+margin-left:230px; 
 
 
+}
+.btnEnviarReg{
+
+margin-left: 130px;
+}
+
+.inputNombre{
+
+margin-right: 0px; 
+
+}
+.inputApellido{
+margin-right: 0px; 
+
+}
+.inputFecha{
+
+margin-right: 0px; 
+}
+.inputCorreo{
+
+margin-right: 0px; 
+}
+.inputContraDos{
+margin-right: 10px; 
+
+}
+.inputVerContra{
+margin-right: 0px; 
+}
+.des-inicioSesion{
+
+
+font-size: 25px;
+
+
+}
+
+.textoContra{
+ 
+	margin-left:  270px ;
+}
+.tituloRegistro{
+
+margin-bottom: 60px;
+
+}
+}
+
+/*----------------------------------------------------Responsive 990------------------------------------------------------------*/
+
+@media only screen and (max-width: 990px) {
+.btnRegistrarme{
+margin-left:370px; 
+
+
+}
+.btnEnviarReg{
+
+margin-left: 200px;
+}
+
+.inputNombre{
+
+margin-right: 40px; 
+
+}
+.inputApellido{
+margin-right: 0px; 
+
+}
+.inputFecha{
+
+margin-right: 40px; 
+}
+.inputCorreo{
+
+margin-right: 0px; 
+}
+.inputContraDos{
+margin-right: 50px; 
+
+}
+.inputVerContra{
+margin-right: 0px; 
+}
+.des-inicioSesion{
+
+
+font-size: 25px;
+
+
+}
+
+.textoContra{
+ 
+	margin-left:  270px ;
+}
+.tituloRegistro{
+
+margin-bottom: 10px;
+margin-top: 30px;
+}
+.inputMail{
+
+
+
+ margin: 30px 20px 15px 60px;
+
+}
+
+.inputContra{
+
+
+
+ margin: 0px 20px 15px 60px;
+
+}
+}
+/*----------------------------------------------------------------RESPONSIVE 770  ---------------------------------------------*/
+@media only screen and (max-width: 770px) {
+.btnRegistrarme{
+margin-left:375px; 
+
+
+}
+.btnEnviarReg{
+
+margin-left: 210px;
+}
+
+.inputNombre{
+
+margin-right: 45px; 
+
+}
+.inputApellido{
+margin-right: 0px; 
+
+}
+.inputFecha{
+
+margin-right: 45px; 
+}
+.inputCorreo{
+
+margin-right: 0px; 
+}
+.inputContraDos{
+margin-right: 55px; 
+
+}
+.inputVerContra{
+margin-right: 0px; 
+}
+.des-inicioSesion{
+
+
+font-size: 25px;
+margin-left: 0px;
+
+}
+
+.textoContra{
+ 
+	margin-left:  270px ;
+}
+.tituloRegistro{
+
+margin-bottom: 10px;
+margin-top: 30px;
+margin-left: 0px;
+}
+.inputMail{
+
+
+
+ margin: 30px 20px 15px 60px;
+
+}
+
+.inputContra{
+
+
+
+ margin: 0px 20px 15px 60px;
+
+
+}
+.titulo-inicioSesion{
+
+font-family: 'TRADEGOTHICLTSTDBOLD';
+font-size: 40px;
+margin-left:40px;
+margin-left: 0px;
+}
+
+
+}
+
+/*------------------------------------------------------------------------------RESPONSIVE 530 ------------------------------------------*/
+
+@media only screen and (max-width: 530px) {
+.btnRegistrarme{
+margin-left:250px; 
+
+
+}
+.btnEnviarReg{
+
+margin-left: 150px;
+}
+
+.inputNombre{
+
+margin-right: 10px; 
+
+}
+.inputApellido{
+margin-right: 0px; 
+
+}
+.inputFecha{
+
+margin-right: 10px; 
+}
+.inputCorreo{
+
+margin-right: 0px; 
+}
+.inputContraDos{
+margin-right: 20px; 
+
+}
+.inputVerContra{
+margin-right: 0px; 
+}
+.des-inicioSesion{
+
+
+font-size: 25px;
+
+
+}
+
+.textoContra{
+ 
+	margin-left:  170px ;
+}
+.tituloRegistro{
+
+margin-bottom: 10px;
+margin-top: 30px;
+}
+.inputMail{
+
+
+
+ margin: 30px 20px 15px 45px;
+
+}
+
+.inputContra{
+
+
+
+ margin: 0px 20px 15px 45px;
+
+
+}
+}
+
+/*-------------------------------RESPONSIVE 430------------------------------------------*/
+@media only screen and (max-width: 430px) {
+.btnRegistrarme{
+margin-left:200px; 
+
+
+}
+.btnEnviarReg{
+
+margin-left: 110px;
+}
+
+.inputNombre{
+
+margin-right: -5px; 
+
+}
+.inputApellido{
+margin-right: 0px; 
+
+}
+.inputFecha{
+
+margin-right: -5px; 
+}
+.inputCorreo{
+
+margin-right: 0px; 
+}
+.inputContraDos{
+margin-right: 5px; 
+
+}
+.inputVerContra{
+margin-right: 0px; 
+}
+.des-inicioSesion{
+
+
+font-size: 25px;
+
+
+}
+
+.textoContra{
+ 
+	margin-left:  120px ;
+}
+.tituloRegistro{
+
+margin-bottom: 10px;
+margin-top: 30px;
+}
+.inputMail{
+
+
+
+ margin: 30px 20px 15px 35px;
+
+}
+
+.inputContra{
+
+
+
+ margin: 0px 20px 15px 35px;
+
+
+}
+}
+
+/*-------------------------------RESPONSIVE 430------------------------------------------*/
+@media only screen and (max-width: 380px) {
+.btnRegistrarme{
+margin-left:175px; 
+font-size: 16px;
+
+}
+.btnEnviarReg{
+
+margin-left: 110px;
+}
+
+.inputNombre{
+
+margin-right: 0px; 
+margin-left: 20px;
+
+}
+.inputApellido{
+margin-right: 0px; 
+
+}
+.inputFecha{
+
+margin-right: 0px; 
+margin-left: 20px;
+}
+.inputCorreo{
+
+margin-right: 0px; 
+}
+.inputContraDos{
+margin-right: 10px; 
+margin-left: 20px;
+
+}
+.inputVerContra{
+margin-right: 0px; 
+}
+.des-inicioSesion{
+
+
+font-size: 25px;
+
+
+}
+
+.textoContra{
+ 
+	margin-left:  100px ;
+}
+.tituloRegistro{
+
+margin-bottom: 10px;
+margin-top: 30px;
+}
+.inputMail{
+
+
+
+ margin: 30px 20px 15px 30px;
+
+}
+
+.inputContra{
+
+
+
+ margin: 0px 20px 15px 30px;
+
+
+}
+}
 /*--------------------------------------------------------------CONTACTO --------------------------------------------------------------------*/
 
 .parrafoIntroContact{
@@ -399,16 +797,16 @@ color: #767676;
 .inputNombreContacto{
 height: 50px;
  font-family: 'TRADEGOTHICLTSTDLIGHT';
-width: 29%;
-margin-right: 11px;
+width: 31%;
+margin-right: 35px;
 
 }
 
 .inputCorreoContacto{
 height: 50px;
  font-family: 'TRADEGOTHICLTSTDLIGHT';
-width: 29%;
-margin-right: 11px;
+width: 31%;
+margin-right: 35px;
 }
 
 .inputAsuntoContacto{
@@ -416,11 +814,11 @@ margin-right: 11px;
 	height: 50px;
  font-family: 'TRADEGOTHICLTSTDLIGHT';
 
-width: 29%;
+width: 31%;
 }
 .mensajeContacto{
 
-width: 995px;
+width: 100%;
 margin-top: 30px;
 
 }
@@ -439,8 +837,206 @@ margin-top: 30px;
 	font-family: 'TRADEGOTHICLTSTDBOLD';
 font-size:20px;
 margin-top: 10px;
-margin-left: 715px;
+margin-left: 830px;
 margin-bottom:145px;
+}
+
+/*----------------------------------------------------------------RESPONSIVE 1200 ------------------------------------------------------------------*/
+@media only screen and (max-width: 1200px) {
+
+.inputNombreContacto{
+height: 50px;
+ font-family: 'TRADEGOTHICLTSTDLIGHT';
+width: 29%;
+margin-right: 56px;
+
+}
+
+.inputCorreoContacto{
+height: 50px;
+ font-family: 'TRADEGOTHICLTSTDLIGHT';
+width: 29%;
+margin-right: 56px;
+}
+
+.inputAsuntoContacto{
+
+	height: 50px;
+ font-family: 'TRADEGOTHICLTSTDLIGHT';
+
+width: 29%;
+}
+.btnEnviarContacto{
+
+		
+margin-left: 700px;
+
+}
+}
+/*----------------------------------------------------------------RESPONSIVE 990 ------------------------------------------------------------------*/
+@media only screen and (max-width: 990px) {
+
+.inputNombreContacto{
+
+width: 29%;
+margin-right: 40px;
+
+}
+
+.inputCorreoContacto{
+height: 50px;
+ font-family: 'TRADEGOTHICLTSTDLIGHT';
+width: 29%;
+margin-right: 40px;
+}
+
+.inputAsuntoContacto{
+
+	height: 50px;
+ font-family: 'TRADEGOTHICLTSTDLIGHT';
+
+width: 29%;
+}
+.btnEnviarContacto{
+
+		
+margin-left: 517px;
+
+}
+}
+/*----------------------------------------------------------------RESPONSIVE 770 ------------------------------------------------------------------*/
+@media only screen and (max-width: 770px) {
+
+.inputNombreContacto{
+height: 50px;
+ font-family: 'TRADEGOTHICLTSTDLIGHT';
+width: 29%;
+margin-bottom: 10px;
+
+}
+
+.inputCorreoContacto{
+height: 50px;
+ font-family: 'TRADEGOTHICLTSTDLIGHT';
+width: 29%;
+margin-bottom:  30px;
+}
+
+.inputAsuntoContacto{
+
+	height: 50px;
+ font-family: 'TRADEGOTHICLTSTDLIGHT';
+
+width: 29%;
+}
+.btnEnviarContacto{
+
+		
+margin-left: 515px;
+
+}
+}
+/*---------------------------------------- RESPONSIVE 480 -------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 480px) {
+
+.inputNombreContacto{
+height: 50px;
+ font-family: 'TRADEGOTHICLTSTDLIGHT';
+width: 100%;
+margin-bottom: 30px;
+margin-right: 0px;
+}
+
+.inputCorreoContacto{
+height: 50px;
+ font-family: 'TRADEGOTHICLTSTDLIGHT';
+width: 100%;
+margin-bottom:  30px;
+margin-right: 0px;
+}
+
+.inputAsuntoContacto{
+
+	height: 50px;
+ font-family: 'TRADEGOTHICLTSTDLIGHT';
+
+width: 100%;
+}
+.btnEnviarContacto{
+
+		
+margin-left: 295px;
+
+}
+}
+
+/*---------------------------------------- RESPONSIVE 390 -------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 390px) {
+
+.inputNombreContacto{
+height: 50px;
+ font-family: 'TRADEGOTHICLTSTDLIGHT';
+width: 100%;
+margin-bottom: 30px;
+
+}
+
+.inputCorreoContacto{
+height: 50px;
+ font-family: 'TRADEGOTHICLTSTDLIGHT';
+width: 100%;
+margin-bottom:  30px;
+}
+
+.inputAsuntoContacto{
+
+	height: 50px;
+ font-family: 'TRADEGOTHICLTSTDLIGHT';
+
+width: 100%;
+}
+.btnEnviarContacto{
+
+		
+margin-left: 260px;
+
+}
+}
+/*---------------------------------------- RESPONSIVE 320 -------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 390px) {
+
+.inputNombreContacto{
+height: 50px;
+ font-family: 'TRADEGOTHICLTSTDLIGHT';
+width: 100%;
+margin-bottom: 30px;
+margin-right: 0px;
+}
+
+.inputCorreoContacto{
+height: 50px;
+ font-family: 'TRADEGOTHICLTSTDLIGHT';
+width: 100%;
+margin-bottom:  30px;
+margin-right: 0px;
+}
+
+.inputAsuntoContacto{
+
+	height: 50px;
+ font-family: 'TRADEGOTHICLTSTDLIGHT';
+
+width: 100%;
+}
+.btnEnviarContacto{
+
+		
+margin-left: 215px;
+font-size: 12px;
+}
 }
 /*-------------------------------------------------------------------------------------Cardio Blog Interna------------------------------------------------------------------------------*/
 
@@ -476,9 +1072,10 @@ padding-left: 30px;
 
 .texto-interna-uno{
  font-family: 'TRADEGOTHICLTSTDLIGHT';
-font-size:18px;
+font-size:16px;
 padding-top: 10px;
 padding-left: 30px;
+text-align: justify;
 
 }
 
@@ -541,6 +1138,79 @@ margin-left: 855px;
 
 	padding-top: 50px;
 	padding-bottom: 50px;
+}
+@media only screen and (max-width: 1200px) {
+    .btnEnviarComentario{
+
+margin-left: 720px;
+}
+
+}
+@media only screen and (max-width: 990px) {
+    .btnEnviarComentario{
+
+margin-left: 540px;
+}
+
+.cont-interna-uno{
+
+background-color: white;
+margin-top: 50px;
+height: 15em;
+}
+
+.titulo-interna-uno{
+
+
+
+padding-left: 0px;
+}
+
+.texto-interna-uno{
+
+
+padding-left:0px;
+
+}
+
+.img-interna-dos{
+
+	margin-top: 23px;
+	margin-bottom : 30px;
+}
+
+}
+@media only screen and (max-width: 765px) {
+    .btnEnviarComentario{
+
+margin-left: 405px;
+}
+
+}
+
+@media only screen and (max-width: 495px) {
+    .btnEnviarComentario{
+
+margin-left: 300px;
+}
+.cont-interna-uno{
+margin-bottom: 70px;
+
+}
+}
+@media only screen and (max-width: 495px) {
+    .btnEnviarComentario{
+
+margin-left: 200px;
+}
+
+}
+@media only screen and (min-width: 1200px) {
+  .btnEnviarComentario{
+
+margin-left: 855px;
+}
+
 }
 /*----------------------------------------------------------------------------------------------------------------------------LO DE JOSE ACABA AQUI ---------------------------------------------------------------------*/
 /*--------------------------------------Footer-------------------------------------------------------*/
