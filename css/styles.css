@@ -53,6 +53,10 @@ font-family: 'Koz';
  font-size: 15px; 
 }
 /* ------- Generics ------ */
+.dropdown-menu{
+
+	margin-left: -15em;
+}
 .nav-link{
 
 	color: gray;
