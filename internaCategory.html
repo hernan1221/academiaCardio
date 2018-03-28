@@ -13,8 +13,8 @@
 	<div class="menuBar "> 
 		<div class="container-fluid"> 
 			<div class="row d-flex align-items-center"> 
-				<div class="col-lg-6"> 
-					<div class="col-lg-4 ">
+				<div class="col-lg-5 col-md-6"> 
+					<div class="col-lg-5 ">
 						<img src="img/logoAcademia.png" class="img-fluid m-md-4"> 
 					</div> 
 				</div>
@@ -22,28 +22,35 @@
 			 		<div id="main-menu">
 			            <ul class="nav justify-content-around ">
 			              <li class="nav-item">
-			                <a class="nav-link menuActivo" href="#">Inicio</a>
-			              </li>
-			              <li class="nav-item">
-			                <a class="nav-link " href="#">Cardio blog</a>
-			              </li>
-			              <li class="nav-item">
-			                <a class="nav-link" href="#">Contacto</a>
-			              </li>
-			              <li class="nav-item">
-			                <a class="nav-link" href="#">Login / Registro</a>
-			              </li>
+		                <a class="nav-link d-none d-md-block" href="index.html">Inicio</a>
+		                
+		              </li>
+		        
+		              <li class="nav-item">
+		                <a class="nav-link d-none d-md-block" href="cardioBlog.html">Cardio blog</a>
+		              </li>
+		              <li class="nav-item">
+		                <a class="nav-link d-none d-md-block" href="Contacto.html">Contacto</a>
+		              </li>
+		              <li class="nav-item">
+		                <a class="nav-link d-none d-md-block" href="Registro.php">Login / Registro</a>
+		              </li>
 			              <li class=""> 
 			              	<ul class="nav nav-tabs"> 
 			              		<li class="nav-item  dropleft"> 
 			              			<a class="" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"  ><i class="fas fa-bars fa-2x text-secondary"></i></a> 
 			              			<div class="dropdown-menu "> 
-			              				<a class="dropdown-item" href="#">Diabetes y enfermedad cardiovascular</a> 
-			              				<a class="dropdown-item" href="#">Lipidos</a> 
-			              				<a class="dropdown-item" href="#">Enfermedad coronaria</a> 
-			              				<a class="dropdown-item" href="#">Insuficiencia cardíaca</a> 
-			              				<a class="dropdown-item" href="#">Anticoagulación</a> 
-			              				<a class="dropdown-item" href="#">Cardiología preventiva</a> 
+			              				<a class="dropdown-item bg-primary text-light d-block d-sm-none" href="index.html">Inicio</a>
+							      <a class="dropdown-item bg-primary text-light d-block d-sm-none" href="cardioBlog.html">Cardio blog</a>
+							      <a class="dropdown-item bg-primary text-light d-block d-sm-none" href="Contacto.html">Contacto</a>
+							      <a class="dropdown-item bg-primary text-light d-block d-sm-none" href="Registro.php">Login / Registro</a>
+							       <div class="dropdown-divider"></div>	
+			              				<a class="dropdown-item " href="diabetes.html">Diabetes y enfermedad cardiovascular</a>
+							      <a class="dropdown-item " href="lipidos.html">Lipidos</a>
+							      <a class="dropdown-item" href="coronaria.html">Enfermedad coronaria</a>
+							      <a class="dropdown-item" href="insuficiencia.html">Insuficiencia cardíaca</a>
+							      <a class="dropdown-item" href="anticuagulacion.html">Anticoagulación</a>
+							      <a class="dropdown-item" href="preventiva.html">Cardiología preventiva</a>
 			              			</div> 
 			              		</li> 
 			              	</ul> 
@@ -96,8 +103,8 @@
 			</p>
 			
 			<div class="row py-5">
-				<div class="col-sm col-md-5 col-lg-3">
-					<img src="img/imgSmallPost.jpg"  class="img-fluid pb-4 pb-sm-0" alt="">	
+				<div class="col-sm-12 col-md-12 col-lg-3 mb-5">
+					<img src="img/imgSmallPost.jpg"  class="img-fluid pb-4 pb-sm-0 col-md-12" alt="">	
 				</div>
 				<div class="col">
 					<p>
@@ -116,36 +123,64 @@
 		<div class="container pb-5">
 			<h3 class="text-blue-client py-5">CONTENIDOS RELACIONADOS</h3>
 			<div class="row">
-				<div class="col-lg-6 no-gutters row">
-					<div class="col-lg-6 ">
-						<img src="img/arti5.jpg" class="img-fluid" alt="Responsive image">
-					</div>
-					<div class="col-lg-6 bg-white no-gutters">
-						<img src="img/iconArt1.png" class="col-lg-6 ">
-						<div class="py-5">
+				<div class="col-md-6  no-gutters row ">
+						
+						<div class="col-lg-6 artDoble no-gutters">
+							
+						<img src="img/arti1.jpg" class="img-fluid  d-none d-lg-block " alt="Responsive image">
+
+						<img src="img/arti1.jpg" class="col-lg-6 d-lg-none no-gutters" >
+
+						</div>
+
+							<img src="img/iconArt11.png" class="col-lg-6 d-lg-none ">
+
+						<div class="col-lg-6 bg-light no-gutters ">
+							<img src="img/iconArt1.png" class="col-lg-6 d-none d-lg-block ">
+							
 							<h3 class="text-center">Lorem Ipsum dolor</h3>
-							<p class="nav-link text-center py-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+						
+
+							<p class="nav-link text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+
+							
+							<div class="col-lg-12  d-flex justify-content-end d-flex align-items-center">
+
+							<a class="text-btnverArt" href="internaCategory.html">Ver más ></a>
+							</div>
 						</div>
-						<div class="col-lg-12  d-flex justify-content-end d-flex align-items-center px-3">
-							<a class="text-btnverArt" href="">Ver más ></a>
+
+
+					</div>
+				<div class="col-md-6  no-gutters row ">
+						
+						<div class="col-lg-6 artDoble no-gutters">
+							
+						<img src="img/arti1.jpg" class="img-fluid  d-none d-lg-block " alt="Responsive image">
+
+						<img src="img/arti1.jpg" class="col-lg-6 d-lg-none no-gutters" >
+
 						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 no-gutters row">
-					<div class="col-lg-6 ">
-						<img src="img/arti2.jpg" class="img-fluid" alt="Responsive image">
-					</div>
-					<div class="col-lg-6 bg-white no-gutters">
-						<img src="img/iconArt2.png" class="col-lg-6 ">
-						<div class="py-5">
+
+							<img src="img/iconArt11.png" class="col-lg-6 d-lg-none ">
+
+						<div class="col-lg-6 bg-light no-gutters ">
+							<img src="img/iconArt1.png" class="col-lg-6 d-none d-lg-block ">
+							
 							<h3 class="text-center">Lorem Ipsum dolor</h3>
-							<p class="nav-link text-center py-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+						
+
+							<p class="nav-link text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+
+							
+							<div class="col-lg-12  d-flex justify-content-end d-flex align-items-center">
+
+							<a class="text-btnverArt" href="internaCategory.html">Ver más ></a>
+							</div>
 						</div>
-						<div class="col-lg-12  d-flex justify-content-end d-flex align-items-center px-3">
-							<a class="text-btnverArt" href="">Ver más ></a>
-						</div>
+
+
 					</div>
-				</div>
 			</div>
 		</div>
 	</div>
