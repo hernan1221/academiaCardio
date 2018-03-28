@@ -1,8 +1,4 @@
-<?php
-	require_once 'php/config.php';
-	
 
-?>
 
 <!DOCTYPE html>
 <html lang="en">
