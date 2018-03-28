@@ -127,7 +127,11 @@ h3{
 	width: 100%;	
 }
 
+.hover-dark:hover{
 
+ opacity: 0.5;
+    filter: alpha(opacity=50);
+}
 
 
 .verMas-comp{
