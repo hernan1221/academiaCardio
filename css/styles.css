@@ -266,12 +266,15 @@ height: 50px;
 
  margin: 30px 20px 15px 40px;
  font-family: 'TRADEGOTHICLTSTDLIGHT';
+ border-style: solid;
+border-width: 1px;
 }
 
 .inputContra{
 
 height: 50px;
-
+ border-style: solid;
+border-width: 1px;
  margin: 0px 20px 15px 40px;
  font-family: 'TRADEGOTHICLTSTDLIGHT';
 }
@@ -313,12 +316,16 @@ margin-left:40px;
 height: 50px;
  font-family: 'TRADEGOTHICLTSTDLIGHT';
  margin: 30px 20px -15px 30px;
+  border-style: solid;
+border-width: 1px;
 
 }
 .inputApellido{
 height: 50px;
  font-family: 'TRADEGOTHICLTSTDLIGHT';
  margin: 30px 0px -15px 15px;
+  border-style: solid;
+border-width: 1px;
 
 }
 .inputFecha{
@@ -326,24 +333,31 @@ height: 50px;
 	height: 50px;
  font-family: 'TRADEGOTHICLTSTDLIGHT';
  margin: 30px 20px 15px 30px;
+  border-style: solid;
+border-width: 1px;
 }
 .inputCorreo{
 
 	height: 50px;
  font-family: 'TRADEGOTHICLTSTDLIGHT';
  margin: 30px 0px -15px 15px;
+  border-style: solid;
+border-width: 1px;
 }
 .inputContraDos{
  font-family: 'TRADEGOTHICLTSTDLIGHT';
 	height: 50px;
 margin-left: 30px;
 margin-right: 30px;
+ border-style: solid;
+border-width: 1px;
 
 }
 .inputVerContra{
  font-family: 'TRADEGOTHICLTSTDLIGHT';
 	height: 50px;
-
+ border-style: solid;
+border-width: 1px;
  margin: 0px 0px 0px 5px;
 }
 
@@ -388,36 +402,30 @@ margin-left: 130px;
 .inputNombre{
 
 margin-right: 0px; 
-border-style: solid;
-border-width: 1px;
+
 }
 .inputApellido{
 margin-right: 0px; 
-border-style: solid;
-border-width: 1px;
+
 }
 .inputFecha{
 
 margin-right: 0px; 
-border-style: solid;
-border-width: 1px;
+
 }
 .inputCorreo{
 
 margin-right: 0px; 
-border-style: solid;
-border-width: 1px;
+
 }
 .inputContraDos{
 margin-right: 10px; 
-border-style: solid;
-border-width: 1px;
+
 
 }
 .inputVerContra{
 margin-right: 0px;
-border-style: solid;
-border-width: 1px; 
+
 }
 .des-inicioSesion{
 
@@ -452,34 +460,29 @@ margin-left: 200px;
 }
 
 .inputNombre{
-border-style: solid;
+
 border-width: 1px;
 margin-right: 40px; 
 
 }
 .inputApellido{
 margin-right: 0px; 
-border-style: solid;
-border-width: 1px;
+
 }
 .inputFecha{
-border-style: solid;
-border-width: 1px;
+
 margin-right: 40px; 
 }
 .inputCorreo{
-border-style: solid;
-border-width: 1px;
+
 margin-right: 0px; 
 }
 .inputContraDos{
 margin-right: 50px; 
-border-style: solid;
-border-width: 1px;
+
 }
 .inputVerContra{
-	border-style: solid;
-border-width: 1px;
+
 margin-right: 0px; 
 }
 .des-inicioSesion{
@@ -501,8 +504,7 @@ margin-top: 30px;
 }
 .inputMail{
 
-border-style: solid;
-border-width: 1px;
+
 
  margin: 30px 20px 15px 60px;
 
@@ -510,8 +512,7 @@ border-width: 1px;
 
 .inputContra{
 
-border-style: solid;
-border-width: 1px;
+
 
  margin: 0px 20px 15px 60px;
 
@@ -530,35 +531,29 @@ margin-left: 210px;
 }
 
 .inputNombre{
-border-style: solid;
-border-width: 1px;
+
 margin-right: 45px; 
 
 }
 .inputApellido{
 margin-right: 0px; 
-border-style: solid;
-border-width: 1px;
+
 }
 .inputFecha{
-border-style: solid;
-border-width: 1px;
+
 margin-right: 45px; 
 }
 .inputCorreo{
-border-style: solid;
-border-width: 1px;
+
 margin-right: 0px; 
 }
 .inputContraDos{
 margin-right: 55px; 
-border-style: solid;
-border-width: 1px;
+
 }
 .inputVerContra{
 margin-right: 0px;
-border-style: solid;
-border-width: 1px; 
+
 }
 .des-inicioSesion{
 
@@ -580,8 +575,7 @@ margin-left: 0px;
 }
 .inputMail{
 
-border-style: solid;
-border-width: 1px;
+
 
  margin: 30px 20px 15px 60px;
 
@@ -589,8 +583,7 @@ border-width: 1px;
 
 .inputContra{
 
-border-style: solid;
-border-width: 1px;
+
 
  margin: 0px 20px 15px 60px;
 
@@ -620,35 +613,29 @@ margin-left: 150px;
 }
 
 .inputNombre{
-border-style: solid;
-border-width: 1px;
+
 margin-right:10px; 
 
 }
 .inputApellido{
 margin-right: 0px; 
-border-style: solid;
-border-width: 1px;
+
 }
 .inputFecha{
-border-style: solid;
-border-width: 1px;
+
 margin-right: 10px; 
 }
 .inputCorreo{
-border-style: solid;
-border-width: 1px;
+
 margin-right: 0px; 
 }
 .inputContraDos{
 margin-right: 20px; 
-border-style: solid;
-border-width: 1px;
+
 }
 .inputVerContra{
 margin-right: 0px; 
-border-style: solid;
-border-width: 1px;
+
 }
 .des-inicioSesion{
 
@@ -669,8 +656,7 @@ margin-top: 30px;
 margin-left: 0px;
 }
 .inputMail{
-border-style: solid;
-border-width: 1px;
+
 
 
  margin: 30px 20px 15px 40px;
@@ -679,8 +665,7 @@ border-width: 1px;
 
 .inputContra{
 
-border-style: solid;
-border-width: 1px;
+
 
  margin: 0px 20px 15px 40px;
 
@@ -705,41 +690,34 @@ margin-left:250px;
 
 }
 .btnEnviarReg{
-border-style: solid;
-border-width: 1px;
+
 margin-left: 150px;
 }
 
 .inputNombre{
-border-style: solid;
-border-width: 1px;
+
 margin-right: 10px; 
 
 }
 .inputApellido{
 margin-right: 0px; 
-border-style: solid;
-border-width: 1px;
+
 }
 .inputFecha{
-border-style: solid;
-border-width: 1px;
+
 margin-right: 10px; 
 }
 .inputCorreo{
-border-style: solid;
-border-width: 1px;
+
 margin-right: 0px; 
 }
 .inputContraDos{
 margin-right: 20px; 
-border-style: solid;
-border-width: 1px;
+
 }
 .inputVerContra{
 margin-right: 0px; 
-border-style: solid;
-border-width: 1px;
+
 }
 .des-inicioSesion{
 
@@ -760,8 +738,7 @@ margin-top: 30px;
 }
 .inputMail{
 
-border-style: solid;
-border-width: 1px;
+
 
  margin: 30px 20px 15px 45px;
 
@@ -769,8 +746,7 @@ border-width: 1px;
 
 .inputContra{
 
-border-style: solid;
-border-width: 1px;
+
 
  margin: 0px 20px 15px 45px;
 
@@ -792,37 +768,31 @@ margin-left: 110px;
 
 .inputNombre{
 
- border-style: solid;
-border-width: 1px;
+
 margin-left: 35px;
 
 }
 .inputApellido{
 margin-right: 0px; 
 margin-left: 35px;
-border-style: solid;
-border-width: 1px;
+
 }
 .inputFecha{
-border-style: solid;
-border-width: 1px;
+
 margin-left: 35px; 
 }
 .inputCorreo{
-border-style: solid;
-border-width: 1px;
+
 margin-left: 35px; 
 margin-top:0px;
 }
 .inputContraDos{
-	border-style: solid;
-border-width: 1px;
+
 margin-left: 35px; 
 margin-top:30px;
 }
 .inputVerContra{
-	border-style: solid;
-border-width: 1px;
+
 margin-left: 35px; 
 margin-top:15px; 
 }
@@ -844,8 +814,7 @@ margin-bottom: 10px;
 margin-top: 30px;
 }
 .inputMail{
-border-style: solid;
-border-width: 1px;
+
 
 
  margin: 30px 20px 15px 35px;
@@ -855,8 +824,7 @@ border-width: 1px;
 .inputContra{
 
 
-border-style: solid;
-border-width: 1px;
+
  margin: 0px 20px 15px 35px;
 
 
@@ -885,35 +853,29 @@ margin-left: 110px;
 }
 
 .inputNombre{
-border-style: solid;
-border-width: 1px;
+
 margin-left: 30px;
 
 }
 .inputApellido{
-	border-style: solid;
-border-width: 1px;
+
 margin-left: 30px;
 }
 .inputFecha{
-border-style: solid;
-border-width: 1px;
+
 margin-left: 30px;
 }
 .inputCorreo{
-border-style: solid;
-border-width: 1px;
+
 margin-left: 30px;
 }
 .inputContraDos{
 margin-left: 30px;
-border-style: solid;
-border-width: 1px;
+
 }
 .inputVerContra{
 margin-left: 30px;
-border-style: solid;
-border-width: 1px;
+
 }
 .des-inicioSesion{
 
@@ -934,8 +896,7 @@ margin-top: 30px;
 }
 .inputMail{
 
-border-style: solid;
-border-width: 1px;
+
 
  margin: 30px 20px 15px 30px;
 
@@ -943,8 +904,7 @@ border-width: 1px;
 
 .inputContra{
 
-border-style: solid;
-border-width: 1px;
+
 
  margin: 0px 20px 15px 30px;
 
@@ -974,8 +934,7 @@ margin-left: 80px;
 }
 
 .inputNombre{
-border-style: solid;
-border-width: 1px;
+
 margin-left: 25px;
 
 }
@@ -1058,7 +1017,8 @@ height: 50px;
  font-family: 'TRADEGOTHICLTSTDLIGHT';
 width: 31%;
 margin-right: 35px;
-
+ border-style: solid;
+border-width: 1px;
 }
 
 .inputCorreoContacto{
@@ -1066,13 +1026,16 @@ height: 50px;
  font-family: 'TRADEGOTHICLTSTDLIGHT';
 width: 31%;
 margin-right: 35px;
+ border-style: solid;
+border-width: 1px;
 }
 
 .inputAsuntoContacto{
 
 	height: 50px;
  font-family: 'TRADEGOTHICLTSTDLIGHT';
-
+ border-style: solid;
+border-width: 1px;
 width: 31%;
 }
 .mensajeContacto{
@@ -1100,7 +1063,11 @@ margin-top: 10px;
 margin-left: 830px;
 margin-bottom:145px;
 }
+.mensajeContacto{
 
+	 border-style: solid;
+border-width: 2px;
+}
 /*----------------------------------------------------------------RESPONSIVE 1200 ------------------------------------------------------------------*/
 @media only screen and (max-width: 1200px) {
 
@@ -1109,8 +1076,7 @@ height: 50px;
  font-family: 'TRADEGOTHICLTSTDLIGHT';
 width: 29%;
 margin-right: 56px;
-border-style: solid;
-border-width: 1px;
+
 }
 
 .inputCorreoContacto{
@@ -1118,17 +1084,16 @@ height: 50px;
  font-family: 'TRADEGOTHICLTSTDLIGHT';
 width: 29%;
 margin-right: 56px;
-border-style: solid;
-border-width: 1px;
+
 }
 
 .inputAsuntoContacto{
 
 	height: 50px;
  font-family: 'TRADEGOTHICLTSTDLIGHT';
-border-width: 1px;
+
 width: 29%;
-border-style: solid;
+
 }
 .btnEnviarContacto{
 
@@ -1136,24 +1101,17 @@ border-style: solid;
 margin-left: 700px;
 
 }
-textarea{
-	border-width: 1px;
-	border-style: solid;
-}
+
 }
 /*----------------------------------------------------------------RESPONSIVE 990 ------------------------------------------------------------------*/
 @media only screen and (max-width: 990px) {
-textarea{
-	border-width: 1px;
-	border-style: solid;
-}
+
 
 .inputNombreContacto{
 
 width: 29%;
 margin-right: 40px;
-border-style: solid;
-border-width: 1px;
+
 }
 
 .inputCorreoContacto{
@@ -1161,17 +1119,16 @@ height: 50px;
  font-family: 'TRADEGOTHICLTSTDLIGHT';
 width: 29%;
 margin-right: 40px;
-border-style: solid;
-border-width: 1px;
+
 }
 
 .inputAsuntoContacto{
 
 	height: 50px;
  font-family: 'TRADEGOTHICLTSTDLIGHT';
-border-style: solid;
+
 width: 29%;
-border-width: 1px;
+
 }
 .btnEnviarContacto{
 
@@ -1182,18 +1139,14 @@ margin-left: 517px;
 }
 /*----------------------------------------------------------------RESPONSIVE 770 ------------------------------------------------------------------*/
 @media only screen and (max-width: 767px) {
-textarea{
-	border-width: 1px;
-	border-style: solid;
-}
+
 
 .inputNombreContacto{
 height: 50px;
  font-family: 'TRADEGOTHICLTSTDLIGHT';
 width: 100%;
 margin-bottom: 10px;
-border-style: solid;
-border-width: 1px;
+
 }
 
 .inputCorreoContacto{
@@ -1201,17 +1154,16 @@ height: 50px;
  font-family: 'TRADEGOTHICLTSTDLIGHT';
 width: 100%;
 margin-bottom:  10px;
-border-style: solid;
-border-width: 1px;
+
 }
 
 .inputAsuntoContacto{
 
 	height: 50px;
  font-family: 'TRADEGOTHICLTSTDLIGHT';
-border-style: solid;
+
 width: 100%;
-border-width: 1px;
+
 }
 .btnEnviarContacto{
 
@@ -1223,10 +1175,7 @@ margin-left: 340px;
 /*---------------------------------------- RESPONSIVE 480 -------------------------------------------------------------------------------------*/
 
 @media only screen and (max-width: 480px) {
-textarea{
-	border-width: 1px;
-	border-style: solid;
-}
+
 
 .inputNombreContacto{
 height: 50px;
@@ -1234,8 +1183,7 @@ height: 50px;
 width: 100%;
 margin-bottom: 30px;
 margin-right: 0px;
-border-style: solid;
-border-width: 1px;
+
 }
 
 .inputCorreoContacto{
@@ -1244,17 +1192,16 @@ height: 50px;
 width: 100%;
 margin-bottom:  30px;
 margin-right: 0px;
-border-style: solid;
-border-width: 1px;
+
 }
 
 .inputAsuntoContacto{
 
 	height: 50px;
  font-family: 'TRADEGOTHICLTSTDLIGHT';
-border-style: solid;
+
 width: 100%;
-border-width: 1px;
+
 }
 .btnEnviarContacto{
 
@@ -1267,18 +1214,14 @@ margin-left: 295px;
 /*---------------------------------------- RESPONSIVE 390 -------------------------------------------------------------------------------------*/
 
 @media only screen and (max-width: 390px) {
-textarea{
-	border-width: 1px;
-	border-style: solid;
-}
+
 
 .inputNombreContacto{
 height: 50px;
  font-family: 'TRADEGOTHICLTSTDLIGHT';
 width: 100%;
 margin-bottom: 30px;
-border-width: 1px;
-border-style: solid;
+
 }
 
 .inputCorreoContacto{
@@ -1286,16 +1229,14 @@ height: 50px;
  font-family: 'TRADEGOTHICLTSTDLIGHT';
 width: 100%;
 margin-bottom:  30px;
-border-width: 1px;
-border-style: solid;
+
 }
 
 .inputAsuntoContacto{
 
 	height: 50px;
  font-family: 'TRADEGOTHICLTSTDLIGHT';
-border-style: solid;
-border-width: 1px;
+
 width: 100%;
 }
 .btnEnviarContacto{
@@ -1314,10 +1255,7 @@ font-size: 12px;
 /*---------------------------------------- RESPONSIVE 320 -------------------------------------------------------------------------------------*/
 
 @media only screen and (max-width: 320px) {
-textarea{
-	border-width: 1px;
-	border-style: solid;
-}
+
 
 .inputNombreContacto{
 height: 50px;
@@ -1325,8 +1263,7 @@ height: 50px;
 width: 100%;
 margin-bottom: 30px;
 margin-right: 0px;
-border-style: solid;
-border-width: 1px;
+
 }
 
 .inputCorreoContacto{
@@ -1335,18 +1272,17 @@ height: 50px;
 width: 100%;
 margin-bottom:  30px;
 margin-right: 0px;
-border-style: solid;
-border-width: 1px;
+
 }
 
 .inputAsuntoContacto{
 
 	height: 50px;
  font-family: 'TRADEGOTHICLTSTDLIGHT';
-border-style: solid;
-border
+
+
 width: 100%;
-border-width: 1px;
+
 }
 .btnEnviarContacto{
 
@@ -1458,7 +1394,7 @@ margin-left: 855px;
 }
 .escribirMensaje{
 border-style: solid;
-border-width: 1px;
+border-width: 2px;
 
 }
 @media only screen and (max-width: 1200px) {
