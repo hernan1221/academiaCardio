@@ -23,21 +23,21 @@
 @font-face {
  
       font-family: 'TRADEGOTHICLTSTDBOLD';
-    src: url('../fonts/TRADEGOTHICLTSTDBOLD1.otf');
+    src: url('../fonts/KozGoPr6N-Bold.otf');
 
 
 }
 @font-face {
  
       font-family: 'TRADEGOTHICLTSTDLIGHT';
-    src: url('../fonts/TRADEGOTHICLTSTDLIGHT1.otf');
+    src: url('../fonts/KozGoPr6N-ExtraLight.otf');
 
 
 }
 @font-face {
  
       font-family: 'TRADEGOTHICLTSTD1';
-    src: url('../fonts/TRADEGOTHICLTSTD1.otf');
+    src: url('../fonts/KozGoPr6N-ExtraLight.otf');
 
 
 }
@@ -126,12 +126,16 @@ h3{
 	margin-top: -2.5em;
 	width: 100%;	
 }
-
-.hover-dark:hover{
+.hover-dark{
 
  opacity: 0.5;
     filter: alpha(opacity=50);
 }
+.hover-dark:hover{
+opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
 
 .dropdown-item:hover{
 
