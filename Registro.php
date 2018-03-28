@@ -53,10 +53,10 @@
 		                <a class="nav-link d-none d-md-block" href="cardioBlog.html">Cardio blog</a>
 		              </li>
 		              <li class="nav-item">
-		                <a class="nav-link d-none d-md-block" href="Contacto.html">Contacto</a>
+		                <a class="nav-link d-none d-md-block" href="contacto.html">Contacto</a>
 		              </li>
 		              <li class="nav-item">
-		                <a class="nav-link menuActivo d-none d-md-block" href="Registro.html">Login / Registro</a>
+		                <a class="nav-link menuActivo d-none d-md-block" href="registro.php">Login / Registro</a>
 		              </li>
 
 		              <li class="">
@@ -71,8 +71,8 @@
 							    <div class="dropdown-menu ">
 							    	<a class="dropdown-item bg-primary text-light d-block d-sm-none" href="index.html">Inicio</a>
 							      <a class="dropdown-item bg-primary text-light d-block d-sm-none" href="cardioBlog.html">Cardio blog</a>
-							      <a class="dropdown-item bg-primary text-light d-block d-sm-none" href="Contacto.html">Contacto</a>
-							      <a class="dropdown-item bg-primary text-light d-block d-sm-none" href="Registro.php">Login / Registro</a>
+							      <a class="dropdown-item bg-primary text-light d-block d-sm-none" href="contacto.html">Contacto</a>
+							      <a class="dropdown-item bg-primary text-light d-block d-sm-none" href="registro.php">Login / Registro</a>
 							       <div class="dropdown-divider"></div>	
 							      <a class="dropdown-item" href="diabetes.html">Diabetes y enfermedad cardiovascular</a>
 							      <a class="dropdown-item" href="lipidos.html">Lipidos</a>
