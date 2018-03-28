@@ -133,6 +133,12 @@ h3{
     filter: alpha(opacity=50);
 }
 
+.dropdown-item:hover{
+
+background-color: #36a1e2;
+	color:white;
+	border-radius: 1em;
+}
 
 .verMas-comp{
 
