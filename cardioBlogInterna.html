@@ -153,24 +153,30 @@
 
 </div>
 </div>
+<form id="myForm">
 <div class="row comentario-interna">
 <h1 class="col-lg-5">Deja tu comentario</h1>
 
-<textarea class="col-lg-12 col-md-12 col-sm-12 escribirMensaje" rows="10" cols="12" >
+<textarea class="col-lg-12 col-md-12 col-sm-12 escribirMensaje" rows="10" cols="12" id="miMensaje" >
 </textarea>
 	<input type="submit" name="" class="col-lg-3 col-md-3 col-sm-3 btnEnviarComentario" value="ENVIAR">
 </div>
-
+</form>
 </div>
 
 <div class="lista-comentarios">
+	<div class="divWritte">
+			
+		</div>
 <div class="container">
 	<div class="row comentario-publicado">
+		<h2 class=" col-lg-5 col-md-5 col-sm-5 texto-usuario">Usuario - Fecha</h2>
+		<p class="col-lg-12 col-md-12 col-sm-12 texto-comentario-publicado">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lore.</p>
+	
+	</div>
+</div>
+	
 
-<h2 class=" col-lg-5 col-md-5 col-sm-5 texto-usuario">Usuario - Fecha</h2>
-<p class="col-lg-12 col-md-12 col-sm-12 texto-comentario-publicado">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lore.</p>
-</div>
-</div>
 </div>	
 
 
@@ -178,6 +184,29 @@
   <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script defer src="js/fontawesome-all.js"></script>
+<script type="text/javascript">
+
+	var array=[];
+
+	$('.btnEnviarComentario').on('click',function(event){
+		$('.divWritte').empty();
+		
+document.getElementById("myForm").onsubmit=function(){
+
+var mensaje= document.getElementById("miMensaje");
+array.push(mensaje.value);
+for (var i = 0; i < array.length; i++) {
+	
+	$(".divWritte").prepend("<div class='container'><div class='row comentario-publicado'><h2 class='col-lg-5 col-md-5 col-sm-5 texto-usuario'>Usuario - Fecha</h2> <p class='col-lg-12 col-md-12 col-sm-12 texto-comentario-publicado'> " + array[i] + "</p></div></div>");
+}
+$(".escribirMensaje").val('');	
+ return false;
+
+}
+	});
+
+
+</script>
 <div class="modal fade" id="terminos" tabindex="-1" role="dialog" aria-labelledby="terminos" aria-hidden="true">
   <div class="modal-dialog  modal-lg" role="document">
     <div class="modal-content">

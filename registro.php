@@ -133,11 +133,11 @@
 <div class="row"> 
 	<input type="name" name="inputNombre" placeholder="Nombres" class="col-lg-5 col-md-5 col-sm-5 col-10  inputNombre" required="required">
 
-<input type="name" name="inputApellido" placeholder="Apellidos" class="col-lg-5 col-md-5 col-sm-5 col-10 inputApellido">
+<input type="name" name="inputApellido" placeholder="Apellidos" class="col-lg-5 col-md-5 col-sm-5 col-10 inputApellido" required="required">
 </div>
 
 	<div class="row"> 
-	<input type="name" name="inputFecha" placeholder="Fecha de nacimiento" class="col-lg-5 col-md-5 col-sm-5 col-10 inputFecha">
+	<input type="date" name="inputFecha" placeholder="Fecha de nacimiento" class="col-lg-5 col-md-5 col-sm-5 col-10 inputFecha" required="required">
 
 <input type="email" name="inputCorreo" placeholder="Email" class="col-lg-5 col-md-5 col-sm-5 col-10 inputCorreo" required="required">
 </div>	
