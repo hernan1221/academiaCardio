@@ -128,22 +128,35 @@
 <h2 class="col-lg-12 tituloRegistro"> Registro</h2>
 
 <form action="php/save.php" method="POST">
+
 <div class="col-lg-12 col-md-12 col-sm-12 seccionRegistro">
-	
+
+		<div class="row"> 
+			<div class="col-lg-4 col-md-4 col-sm-4 logo-Novo">
+<img src="img/logoNovo.png" class="col-lg-12 col-md-12 col-sm-12 img-responsive" >
+</div>
+	<p class="col-lg-8 col-md-8 col-sm-8 texto-Novo">Novo Nordisk Colombia tiene el gusto de contribuir a la educación médica de los profesionales de la salud en
+Colombia otorgando una membresía de acceso ilimitado a todo el contenido académico de Academia Cardiovascular durante 12 meses.
+</p>
+</div>
 <div class="row"> 
 	<input type="name" name="inputNombre" placeholder="Nombres" class="col-lg-5 col-md-5 col-sm-5 col-10  inputNombre" required="required">
 
 <input type="name" name="inputApellido" placeholder="Apellidos" class="col-lg-5 col-md-5 col-sm-5 col-10 inputApellido" required="required">
 </div>
-
 	<div class="row"> 
-	<input type="date" name="inputFecha" placeholder="Fecha de nacimiento" class="col-lg-5 col-md-5 col-sm-5 col-10 inputFecha" required="required">
+	<input type="mail" name="inputCorreo" placeholder="Correo" class="col-lg-5 col-md-5 col-sm-5 col-10 inputCorreo" required="required">
 
-<input type="email" name="inputCorreo" placeholder="Email" class="col-lg-5 col-md-5 col-sm-5 col-10 inputCorreo" required="required">
+<input type="text" name="inputCodigo" placeholder="Código de acceso" class="col-lg-5 col-md-5 col-sm-5 col-10 inputCodigo" required="required">
+</div>	
+	<div class="row"> 
+	<input type="text" name="inputCedula" placeholder="Cédula de ciudadanía" class="col-lg-5 col-md-5 col-sm-5 col-10 inputCedula" required="required">
+
+<input type="password" name="inputContrasena" placeholder="Contraseña" class="col-lg-5 col-md-5 col-sm-5 col-10 inputContraDos" required="required">
 </div>	
 
 <div class="row"> 
-	<input type="password" name="inputContraDos" placeholder="Contraseña" class="col-lg-5 col-md-5 col-sm-5 col-10  inputContraDos" required="required">
+	
 
 <input type="password" name="" placeholder="Confirmar contraseña" class="col-lg-5 col-md-5 col-sm-5 col-10 inputVerContra" required="required">
 </div>	
@@ -152,7 +165,11 @@
 <input type="checkbox" name="gender" value="male" class="col-lg6 checkPri" required="required"><a href="" class="textoTerCon" data-toggle="modal" data-target="#politicas"> Acepto políticas de privacidad</a><br>
 
 <input type="submit" name="" class="col-lg-5 col-md-5 col-sm-5 col-5 btnRegistrarme" value="REGISTRARME">
+<div class="row"> 
+	<p class="col-lg-11 col-md-11 col-sm-11 texto-itaAca">Academia Cardiovascular es un producto académico independiente de Estrategias Médicos de Impacto SAS con el aval académico de la Sociedad Latinoamericana de Educación Médica. El contenido es completamente ajeno a Novo Nordisk y revisado en su totalidad por el equipo de coordinación académica de Academia Cardiovascular.
 
+</p>
+</div>
 </div>
 </form>
 </div>

@@ -386,7 +386,33 @@ margin-bottom: 70px;
 font-family: 'TRADEGOTHICLTSTDBOLD';
 font-size: 40px;
 margin-left:40px;
+margin-right: 40px;
+
 }
+
+.texto-Novo{
+font-family: 'TRADEGOTHICLTSTDLIGHT';
+font-size: 12px;
+text-align: justify;
+margin-left:-10px;
+margin-bottom: -10px;
+margin-top: 20px;
+}
+
+.logo-Novo{
+
+	margin-top: 20px;
+}
+
+ .texto-itaAca{
+ 	font-family: 'TRADEGOTHICLTSTDLIGHT';
+ 	 font-style: italic;
+margin-left: 20px;
+font-size: 9px;
+text-align: justify;
+margin-bottom: 20px;
+margin-top: 0px;
+ }
 
 .inputNombre{
 height: 50px;
@@ -412,15 +438,51 @@ border-width: 1px;
   border-style: solid;
 border-width: 1px;
 }
-.inputCorreo{
+.inputCorreo{  /*copia de inputfecha*/
+height: 50px;
+ font-family: 'TRADEGOTHICLTSTDLIGHT';
+ margin: 30px 20px 15px 30px;
+  border-style: solid;
+border-width: 1px;
+
+}
+
+.inputCodigo{ /*copia de inputcorreo*/
+height: 50px;
+ font-family: 'TRADEGOTHICLTSTDLIGHT';
+ margin: 30px 0px -15px 15px;
+  border-style: solid;
+border-width: 1px;
+
+}
+
+.inputCedula{ /*copia de inputfecha*/
+
+	height: 50px;
+ font-family: 'TRADEGOTHICLTSTDLIGHT';
+ margin: 0px 20px 15px 30px;
+  border-style: solid;
+border-width: 1px;
+}
+
+.inputContraDos{
+/*copia de inputcorreo*/
+height: 50px;
+ font-family: 'TRADEGOTHICLTSTDLIGHT';
+ margin: 0px 0px -15px 15px;
+  border-style: solid;
+border-width: 1px;
+
+}
+/*.inputCorreo{
 
 	height: 50px;
  font-family: 'TRADEGOTHICLTSTDLIGHT';
  margin: 30px 0px -15px 15px;
   border-style: solid;
 border-width: 1px;
-}
-.inputContraDos{
+}*/
+/*.inputContraDos{
  font-family: 'TRADEGOTHICLTSTDLIGHT';
 	height: 50px;
 margin-left: 30px;
@@ -428,13 +490,13 @@ margin-right: 30px;
  border-style: solid;
 border-width: 1px;
 
-}
+}*/
 .inputVerContra{
  font-family: 'TRADEGOTHICLTSTDLIGHT';
 	height: 50px;
  border-style: solid;
 border-width: 1px;
- margin: 0px 0px 0px 5px;
+ margin: 0px 0px 0px 30px;
 }
 
 .checkTerCon{
@@ -484,21 +546,29 @@ margin-right: 0px;
 margin-right: 0px; 
 
 }
-.inputFecha{
 
-margin-right: 0px; 
-
-}
 .inputCorreo{
 
 margin-right: 0px; 
 
 }
-.inputContraDos{
-margin-right: 10px; 
 
+.inputCodigo{
+margin-right: 0px; 
 
 }
+.inputCedula{
+margin-right: 0px; 
+
+}
+
+.inputContraDos{
+
+margin-right: 0px; 
+}
+
+
+
 .inputVerContra{
 margin-right: 0px;
 
@@ -525,6 +595,10 @@ margin-bottom: 60px;
 /*----------------------------------------------------Responsive 990------------------------------------------------------------*/
 
 @media only screen and (max-width: 990px) {
+	.texto-Novo{
+
+margin-top: 50px;
+}
 .btnRegistrarme{
 margin-left:370px; 
 
@@ -545,16 +619,23 @@ margin-right: 40px;
 margin-right: 0px; 
 
 }
-.inputFecha{
+
+.inputCorreo{
 
 margin-right: 40px; 
 }
-.inputCorreo{
 
+.inputCodigo{
 margin-right: 0px; 
+
+}
+
+.inputCedula{
+margin-right: 40px; 
+	
 }
 .inputContraDos{
-margin-right: 50px; 
+margin-right: 0px; 
 
 }
 .inputVerContra{
@@ -596,8 +677,12 @@ margin-top: 30px;
 }
 /*----------------------------------------------------------------RESPONSIVE 770  ---------------------------------------------*/
 @media only screen and (max-width: 770px) {
+	.texto-Novo{
+
+margin-top: 20px;
+}
 .btnRegistrarme{
-margin-left:375px; 
+margin-left:265px; 
 
 
 }
@@ -608,23 +693,30 @@ margin-left: 210px;
 
 .inputNombre{
 
-margin-right: 45px; 
+margin-right: 10px; 
 
 }
 .inputApellido{
 margin-right: 0px; 
 
 }
-.inputFecha{
 
-margin-right: 45px; 
-}
 .inputCorreo{
 
-margin-right: 0px; 
+margin-right: 10px;  
 }
+
+.inputCodigo{
+margin-right: 0px; 
+
+}
+.inputCedula{
+margin-right: 10px; 
+	
+}
+
 .inputContraDos{
-margin-right: 55px; 
+margin-right: 0px; 
 
 }
 .inputVerContra{
@@ -697,16 +789,24 @@ margin-right:10px;
 margin-right: 0px; 
 
 }
-.inputFecha{
+
+.inputCorreo{
 
 margin-right: 10px; 
 }
-.inputCorreo{
+
+.inputCodigo{
 
 margin-right: 0px; 
 }
+
+.inputCedula{
+margin-right: 10px;
+
+}
+
 .inputContraDos{
-margin-right: 20px; 
+margin-right: 0px; 
 
 }
 .inputVerContra{
@@ -757,11 +857,12 @@ margin-left: 0px;
 
 
 }
-/*------------------------------------------------------------------------------RESPONSIVE 530 ------------------------------------------*/
+/*------------------------------------------------------------------------------RESPONSIVE 575 ------------------------------------------*/
 
-@media only screen and (max-width: 530px) {
+@media only screen and (max-width: 575px) {
+	
 .btnRegistrarme{
-margin-left:250px; 
+margin-left:230px; 
 
 
 }
@@ -772,28 +873,37 @@ margin-left: 150px;
 
 .inputNombre{
 
-margin-right: 10px; 
+margin-left: 40px; 
 
 }
 .inputApellido{
 margin-right: 0px; 
-
+margin-left: 40px; 
 }
-.inputFecha{
 
-margin-right: 10px; 
-}
 .inputCorreo{
-
-margin-right: 0px; 
+margin-left: 40px; 
+margin-bottom:-15px ;
 }
-.inputContraDos{
-margin-right: 20px; 
 
+.inputCodigo{
+
+margin-left: 40px; 
+
+}
+
+.inputCedula{
+margin-left: 40px; 
+margin-top: 30px;
+}
+
+.inputContraDos{
+margin-right: 0px; 
+margin-left: 40px;
 }
 .inputVerContra{
-margin-right: 0px; 
-
+margin-top: 30px;
+margin-left: 40px;
 }
 .des-inicioSesion{
 
@@ -828,14 +938,27 @@ margin-top: 30px;
 
 
 }
+.checkTerCon{
+
+	margin: 30px 0px 0px 25px;
+
+}
+.checkPri{
+
+	margin: 15px 0px 0px 25px;
+}
 }
 
 /*-------------------------------RESPONSIVE 430------------------------------------------*/
 @media only screen and (max-width: 430px) {
+		.texto-Novo{
+margin-left: 5px;
+margin-top: 0px;
+}
 .btnRegistrarme{
-margin-left:200px; 
+margin-left:190px; 
 
-
+font-size: 16px;
 }
 .btnEnviarReg{
 
@@ -844,33 +967,37 @@ margin-left: 110px;
 
 .inputNombre{
 
-
-margin-left: 35px;
+margin-left: 30px; 
 
 }
 .inputApellido{
 margin-right: 0px; 
-margin-left: 35px;
-
+margin-left: 30px; 
 }
-.inputFecha{
 
-margin-left: 35px; 
-}
 .inputCorreo{
-
-margin-left: 35px; 
-margin-top:0px;
+margin-left: 30px; 
+margin-bottom:-15px ;
 }
-.inputContraDos{
 
-margin-left: 35px; 
-margin-top:30px;
+.inputCodigo{
+
+margin-left: 30px; 
+
+}
+
+.inputCedula{
+margin-left: 30px; 
+margin-top: 30px;
+}
+
+.inputContraDos{
+margin-right: 0px; 
+margin-left: 30px;
 }
 .inputVerContra{
-
-margin-left: 35px; 
-margin-top:15px; 
+margin-top: 30px;
+margin-left: 30px;
 }
 .des-inicioSesion{
 
@@ -907,12 +1034,12 @@ margin-top: 30px;
 }
 .checkTerCon{
 
-	margin: 30px 0px 0px 20px;
+	margin: 30px 0px 0px 15px;
 
 }
 .checkPri{
 
-	margin: 15px 0px 0px 20px;
+	margin: 15px 0px 0px 15px;
 }
 }
 
@@ -925,33 +1052,42 @@ font-size: 16px;
 }
 .btnEnviarReg{
 
-margin-left: 110px;
+margin-left: 90px;
 }
 
 .inputNombre{
 
-margin-left: 30px;
+margin-left: 30px; 
 
 }
 .inputApellido{
-
-margin-left: 30px;
+margin-right: 0px; 
+margin-left: 30px; 
 }
-.inputFecha{
 
-margin-left: 30px;
-}
 .inputCorreo{
-
-margin-left: 30px;
+margin-left: 30px; 
+margin-bottom:-15px ;
 }
-.inputContraDos{
-margin-left: 30px;
 
+.inputCodigo{
+
+margin-left: 30px; 
+
+}
+
+.inputCedula{
+margin-left: 30px; 
+margin-top: 30px;
+}
+
+.inputContraDos{
+margin-right: 0px; 
+margin-left: 30px;
 }
 .inputVerContra{
+margin-top: 30px;
 margin-left: 30px;
-
 }
 .des-inicioSesion{
 
@@ -1006,31 +1142,42 @@ font-size: 12px;
 }
 .btnEnviarReg{
 
-margin-left: 80px;
+margin-left: 70px;
 }
 
 .inputNombre{
 
-margin-left: 25px;
+margin-left: 20px; 
 
 }
 .inputApellido{
-margin-left: 25px;
+margin-right: 0px; 
+margin-left: 20px; 
 }
-.inputFecha{
 
-margin-left: 25px;
-}
 .inputCorreo{
-
-margin-left: 25px;
+margin-left: 20px; 
+margin-bottom:-15px ;
 }
-.inputContraDos{
-margin-left: 25px;
 
+.inputCodigo{
+
+margin-left: 20px; 
+
+}
+
+.inputCedula{
+margin-left: 20px; 
+margin-top: 30px;
+}
+
+.inputContraDos{
+margin-right: 0px; 
+margin-left: 20px;
 }
 .inputVerContra{
-margin-left: 25px;
+margin-top: 30px;
+margin-left: 20px;
 }
 .des-inicioSesion{
 
