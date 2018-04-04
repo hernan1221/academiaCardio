@@ -3,12 +3,12 @@
 	
 	$nombre = utf8_decode($_POST["inputNombre"]);
 	$apellido = utf8_decode($_POST["inputApellido"]);
-	$email = utf8_decode($_POST["inputCorreo"]);
-    $fecha = utf8_decode($_POST["inputFecha"]);
+	$codigo = utf8_decode($_POST["inputCodigo"]);
+    $cedula = utf8_decode($_POST["inputCedula"]);
 	$contrasena = utf8_decode($_POST["inputContraDos"]);
 
 	if( $nombre == "" || $email == "" || $contrasena == ""){
 	}else{
-		$insert = mysqli_query($con,'INSERT INTO ac_form(nombres,apellidos, fecha_de_nacimiento, correo,contrasena) VALUES ("'.$nombre.'","'.$apellido.'","'.$email.'","'.$fecha.'","'.$contrasena.'")')or die("no insertó : ". mysql_error());
+		$insert = mysqli_query($con,'INSERT INTO ac_form(nombres,apellidos, cedula, codigo,contrasena) VALUES ("'.$nombre.'","'.$apellido.'","'.$cedula.'","'.$codigo.'","'.$contrasena.'")')or die("no insertó : ". mysql_error());
 	}	
 ?>
